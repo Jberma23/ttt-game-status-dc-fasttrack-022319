@@ -17,14 +17,15 @@ WIN_COMBINATIONS = [
   [0,4,8], 
   [2,4,6] ]
   
-# top_row_win = WIN_COMBINATIONS[0]
-# middle_row_win = WIN_COMBINATIONS[1]
-# bottom_row_win = WIN_COMBINATIONS [2]
-# first_column_win = WIN_COMBINATIONS[3]
-# second_column_win = WIN_COMBINATIONS[4]
-# third_column_win = WIN_COMBINATIONS[5]
-# first_diag_win = WIN_COMBINATIONS[6]
-# second_diag_win =WIN_COMBINATIONS [7]
+# win_index_1 = WIN_COMBINATIONS[0]
+# win_index_2 = WIN_COMBINATIONS[1]
+# win_index_3 = WIN_COMBINATIONS [2]
+# win_index_4 = WIN_COMBINATIONS[3]
+# win_index_5 = WIN_COMBINATIONS[4]
+# win_index_6 = WIN_COMBINATIONS[5]
+# win_index_7 = WIN_COMBINATIONS[6]
+# win_index_8 =WIN_COMBINATIONS [7]
+position_1 = board[win_index_1]
  def won(board)
    board.each do |firstvar|
      puts 
