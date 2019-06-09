@@ -40,7 +40,6 @@ if position_1 == "X" && position_2 == "X" && position_3 == "X"
 else 
   false 
 end 
-end
 
  def won(board)
    board.each do |firstvar|
