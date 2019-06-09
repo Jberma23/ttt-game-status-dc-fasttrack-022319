@@ -8,7 +8,7 @@ end
 # top_row_win = [1,2,3]
 # if 
 WIN_COMBINATIONS = [
-  [top_row_win
+  [top_row_win, 
     [0,1,2], #top row
     [3,4,5], #middle row
     [6,7,8], #bottom row
