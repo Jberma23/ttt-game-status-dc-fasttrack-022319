@@ -8,7 +8,6 @@ end
 # top_row_win = [1,2,3]
 # if 
 WIN_COMBINATIONS = [
-  
   [0,1,2], 
   [3,4,5],
   [6,7,8],
@@ -16,7 +15,7 @@ WIN_COMBINATIONS = [
   [1,4,5], 
   [2,5,8],
   [0,4,8], 
-  [2,4,6]
+  [2,4,6],
   ]
   
   def win(board)
