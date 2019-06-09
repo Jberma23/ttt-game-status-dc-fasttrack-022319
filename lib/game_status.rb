@@ -41,9 +41,9 @@ else
   false 
 end 
 
- def won(board)
-   board.each do |firstvar|
-     puts 
+# def won(board)
+#   board.each do |firstvar|
+#     puts 
   
-end
+# end
   
