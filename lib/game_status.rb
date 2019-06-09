@@ -19,7 +19,7 @@ WIN_COMBINATIONS = [
   [0,4,8], 
   [2,4,6] ]
   
-  for each 
+  win_index_1 = w
   
  def won(board)
    board.each do |firstvar|
