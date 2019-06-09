@@ -19,5 +19,8 @@ WIN_COMBINATIONS = [
   [0,4,8], 
   [2,4,6] ]
   
-  # def win(board)
+ def win(board)
+   board.each do |WIN_COMBINATIONS|
+  
+end
   
