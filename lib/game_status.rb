@@ -23,8 +23,10 @@ WIN_COMBINATIONS = [
  middle_row_win = WIN_COMBINATIONS[1]
  bottom_row_win = WIN_COMBINATIONS [2]
  first_column_win = WIN_COMBINATIONS[3]
- second_column_win
-  
+ second_column_win = WIN_COMBINATIONS[4]
+ third_column_win = WIN_COMBINATIONS[5]
+ first_diag_win = WIN_COMBINATIONS[6]
+ second_diag_win =WIN_COMBINATIONS [7]
  def won(board)
    board.each do |firstvar|
      
