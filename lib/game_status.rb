@@ -4,7 +4,7 @@ def position_taken?(board, index)
 end
 
 # # Define your WIN_COMBINATIONS constant
-# board =  ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+# board =  [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 # top_row_win = [1,2,3]
 # if 
 WIN_COMBINATIONS = [
@@ -19,8 +19,10 @@ WIN_COMBINATIONS = [
   [0,4,8], 
   [2,4,6] ]
   
- def win(board)
-   board.each do |WIN_COMBINATIONS|
+  for each 
+  
+ def won(board)
+   board.each do |firstvar|
      
   
 end
