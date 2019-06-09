@@ -29,7 +29,7 @@ WIN_COMBINATIONS = [
 # second_diag_win =WIN_COMBINATIONS [7]
  def won(board)
    board.each do |firstvar|
-     
+     puts 
   
 end
   
